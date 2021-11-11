@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body{
+   padding: 0;
+   margin: 0;
+   display: block;
+}
+.crop-img{
+   width: 240px;
+   height: 240px; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .info-text{
+        text-align: center;
+    }
+    ul{
+        list-style-type: none;
+        display: inline;
+    }
+}
